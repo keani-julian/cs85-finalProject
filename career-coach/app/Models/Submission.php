@@ -12,7 +12,7 @@ class Submission extends Model
     use HasFactory;
 
     public const DOCUMENT_TYPES = [
-        'resume' => 'Résumé',
+        'resume' => 'Resume',
         'cover_letter' => 'Cover Letter',
     ];
 
